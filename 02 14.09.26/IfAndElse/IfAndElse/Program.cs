@@ -15,7 +15,7 @@
             //if ja else kontrollib, kas muutuja 
             //name  on tühi või mitte
             //kui muutuja name on tühi siis väljastab konsoolile 
-            //teksti "tere tundmatu" ja teeb 4 piiksu
+            //teksti "Tere tundmatu" ja teeb 4 piiksu
 
             if (name != "")
             {
@@ -25,16 +25,16 @@
             }
             else
             {
-                Console.BackgroundColor = ConsoleColor.red;
+                Console.BackgroundColor = ConsoleColor.Red;
                 Console.WriteLine("Tere, tundmatu!");
-                Console.beep();
-                Console.sleep(1000);
-                Console.beep();
-                Console.sleep(1000);
-                Console.beep();
-                Console.sleep(1000);
-                Console.beep();
-                Console.sleep(1000);
+                Console.Beep();
+                Thread.Sleep(1000);
+                Console.Beep();
+                Thread.Sleep(1000);
+                Console.Beep();
+                Thread.Sleep(1000);
+                Console.Beep();
+                Thread.Sleep(1000);
             }
         }
     }
